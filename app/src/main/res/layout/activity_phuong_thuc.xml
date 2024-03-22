@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhuongThuc">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/firebase"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:text="Firebase"/>
+    <Button
+        android:id="@+id/btnDnEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/icon_email"
+        android:paddingLeft="10dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/vien_email"
+        android:text="LOGIN WITH EMAIL"/>
+    <Button
+        android:id="@+id/btnDnPhoneNumber"
+        android:layout_width="300dp"
+        android:drawableStart="@drawable/call"
+        android:paddingLeft="10dp"
+        android:background="@drawable/vien_phone_number"
+        android:layout_height="wrap_content"
+        android:text="LOGIN WITH PHONE NUMBER"/>
+</LinearLayout>
